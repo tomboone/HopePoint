@@ -21,6 +21,7 @@
 		5B41279D1CB6BA9400F93359 /* Bhopal.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B4127991CB6BA9400F93359 /* Bhopal.gpx */; };
 		5B41279E1CB6BA9400F93359 /* LaPiedad.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B41279A1CB6BA9400F93359 /* LaPiedad.gpx */; };
 		5B41279F1CB6BA9400F93359 /* Toronto.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B41279B1CB6BA9400F93359 /* Toronto.gpx */; };
+		DA10D65B21BD37C3008A1F82 /* rockville.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DA10D65A21BD37C3008A1F82 /* rockville.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		5B4127991CB6BA9400F93359 /* Bhopal.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bhopal.gpx; sourceTree = "<group>"; };
 		5B41279A1CB6BA9400F93359 /* LaPiedad.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LaPiedad.gpx; sourceTree = "<group>"; };
 		5B41279B1CB6BA9400F93359 /* Toronto.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Toronto.gpx; sourceTree = "<group>"; };
+		DA10D65A21BD37C3008A1F82 /* rockville.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rockville.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				39854A291CB57BDC00D19C94 /* London.gpx */,
 				39854A2A1CB57BDC00D19C94 /* New_York.gpx */,
 				39854A2B1CB57BDC00D19C94 /* Point_Hope.gpx */,
+				DA10D65A21BD37C3008A1F82 /* rockville.gpx */,
 				39854A141CB57BD500D19C94 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -129,12 +132,12 @@
 		39854A081CB57BD500D19C94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Michael Phelps";
 				TargetAttributes = {
 					39854A0F1CB57BD500D19C94 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = Q4TPH26Q49;
+						DevelopmentTeam = 5L856G8UP8;
 					};
 				};
 			};
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B41279C1CB6BA9400F93359 /* Two_Forks.gpx in Resources */,
+				DA10D65B21BD37C3008A1F82 /* rockville.gpx in Resources */,
 				39854A301CB57BDC00D19C94 /* Point_Hope.gpx in Resources */,
 				5B41279D1CB6BA9400F93359 /* Bhopal.gpx in Resources */,
 				5B41279F1CB6BA9400F93359 /* Toronto.gpx in Resources */,
@@ -211,13 +215,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -238,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = appletvos;
@@ -256,13 +270,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -277,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -293,9 +317,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5L856G8UP8;
 				INFOPLIST_FILE = hopepoint_tv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.9magnets.hopepoint-tv";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomboone.hopepoint-tv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -308,9 +333,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5L856G8UP8;
 				INFOPLIST_FILE = hopepoint_tv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.9magnets.hopepoint-tv";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomboone.hopepoint-tv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

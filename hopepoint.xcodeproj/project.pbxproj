@@ -22,6 +22,7 @@
 		5B4127A51CB6BADC00F93359 /* Bhopal.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B4127A11CB6BADC00F93359 /* Bhopal.gpx */; };
 		5B4127A61CB6BADC00F93359 /* LaPiedad.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B4127A21CB6BADC00F93359 /* LaPiedad.gpx */; };
 		5B4127A71CB6BADC00F93359 /* Toronto.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B4127A31CB6BADC00F93359 /* Toronto.gpx */; };
+		DA10D65D21BD3885008A1F82 /* rockville.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DA10D65C21BD3885008A1F82 /* rockville.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		5B4127A11CB6BADC00F93359 /* Bhopal.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bhopal.gpx; sourceTree = "<group>"; };
 		5B4127A21CB6BADC00F93359 /* LaPiedad.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LaPiedad.gpx; sourceTree = "<group>"; };
 		5B4127A31CB6BADC00F93359 /* Toronto.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Toronto.gpx; sourceTree = "<group>"; };
+		DA10D65C21BD3885008A1F82 /* rockville.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rockville.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		398549E61CB57BB500D19C94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DA10D65C21BD3885008A1F82 /* rockville.gpx */,
 				5B4127A01CB6BADC00F93359 /* Two_Forks.gpx */,
 				5B4127A11CB6BADC00F93359 /* Bhopal.gpx */,
 				5B4127A21CB6BADC00F93359 /* LaPiedad.gpx */,
@@ -132,11 +135,12 @@
 		398549DB1CB57BB500D19C94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Michael Phelps";
 				TargetAttributes = {
 					398549E21CB57BB500D19C94 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5L856G8UP8;
 					};
 				};
 			};
@@ -167,6 +171,7 @@
 				39854A061CB57BC000D19C94 /* Point_Hope.gpx in Resources */,
 				39854A031CB57BC000D19C94 /* Chicago.gpx in Resources */,
 				5B4127A51CB6BADC00F93359 /* Bhopal.gpx in Resources */,
+				DA10D65D21BD3885008A1F82 /* rockville.gpx in Resources */,
 				398549F61CB57BB500D19C94 /* LaunchScreen.storyboard in Resources */,
 				398549F31CB57BB500D19C94 /* Assets.xcassets in Resources */,
 				39854A051CB57BC000D19C94 /* New_York.gpx in Resources */,
@@ -222,13 +227,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -267,13 +282,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -302,10 +327,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5L856G8UP8;
 				INFOPLIST_FILE = hopepoint/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.9magnets.hopepoint;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomboone.hopepoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -315,10 +341,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5L856G8UP8;
 				INFOPLIST_FILE = hopepoint/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.9magnets.hopepoint;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomboone.hopepoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
